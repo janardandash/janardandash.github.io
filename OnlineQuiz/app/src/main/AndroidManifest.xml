@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="odhisha.john.jani.jana.onlinequiz">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListCategory" />
+        <activity android:name=".MainGameActivity" />
+        <activity android:name=".GameWon" />
+        <activity android:name=".PlayAgain" />
+        <activity
+            android:name=".Time_Up"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_time__up"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".ScoreShowActivity" />
+
+    </application>
+
+</manifest>

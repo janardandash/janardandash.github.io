@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OnlineQuiz</string>
+    <string name="user_id">User Name</string>
+    <string name="play_game">Start Game</string>
+    <string name="quit">Quit</string>
+    <string name="timeup">Time Up</string>
+    <string name="time">15</string>
+    <string name="question">Questions</string>
+
+    <string name="title_activity_time__up">Time_Up</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="correct">Correct</string>
+    <string name="next">Next</string>
+    <string name="Start_game">Start Game</string>
+    <string name="play_again">Play Again</string>
+</resources>

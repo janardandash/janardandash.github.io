@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context="odhisha.john.jani.jana.onlinequiz.Time_Up">
+
+    <TextView
+        android:id="@+id/timeUpText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="@string/timeup"
+        android:textColor="@color/red"
+        android:textSize="30dp" />
+    <TextView
+    android:id="@+id/Scoretext"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_weight=".5"
+    android:text="Your Score is:"
+        android:textColor="@color/white"
+    android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight=".5"
+        android:text="Score"
+        android:textColor="@color/red"
+        android:textSize="20dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_timer_off_black_24dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"></View>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/playAgainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_weight=".1"
+        android:text="@string/play_again"
+        fbutton:buttonColor="@color/lightGreen" />
+</LinearLayout>
